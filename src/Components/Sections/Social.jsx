@@ -1,8 +1,8 @@
 import React from "react";
 import '../Sections/StylesSections/Social.css';
-// import logoW from '../../assets/whatsapp.png';
-// import logoT from '../../assets/tiktok.png';
-// import logoIg from '../../assets/ig.png'
+import logoW from '../../assets/whatsapp.png';
+import logoT from '../../assets/tiktok.png';
+import logoIg from '../../assets/ig.png'
 function Bottom(){
     return(
         <div className="bottom">   
