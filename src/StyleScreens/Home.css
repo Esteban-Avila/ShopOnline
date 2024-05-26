@@ -7,13 +7,13 @@ html, body{
 }
 
 .container-Home{
-    width: 100vw;
+    width: 90vw;
 }
 
 .content {
   text-align: center;
   flex: 1;
-  height: 63vh;
+  height: 100vh;
 }
 
 .products-carousel {
