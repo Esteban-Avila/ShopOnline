@@ -4,6 +4,7 @@ import './NavBar.css'
 const links = [
   { name: "Inicio", href: "/"},
   { name: "Carrito", href: "/Payments" },
+  { name: "Iniciar sesion", href: "/login" },
   // mando a quitar el resto
 ];
 

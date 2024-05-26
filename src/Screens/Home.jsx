@@ -36,6 +36,43 @@ const Home = () => {
       </div>
       <div className='content'>
         <h1>Bienvenido</h1>
+        <h2>Aretes</h2>
+        {displayedProducts.length === 0 ? (
+          <p>Cargando productos...</p>
+        ) : (
+          <div className='products-carousel'>
+            {displayedProducts.map((product) => (
+              <div key={product.id} className='product-card'>
+                <img src={product.image} alt={product.name} className='product-image' />
+                <button className='add-button'>Agregar</button>
+              </div>
+            ))}
+          </div>
+        )}
+        <div className='carousel-controls'>
+          <button onClick={handlePrev}>Anterior</button>
+          <button onClick={handleNext}>Siguiente</button>
+        </div>
+
+        <h2>Collares</h2>
+        {displayedProducts.length === 0 ? (
+          <p>Cargando productos...</p>
+        ) : (
+          <div className='products-carousel'>
+            {displayedProducts.map((product) => (
+              <div key={product.id} className='product-card'>
+                <img src={product.image} alt={product.name} className='product-image' />
+                <button className='add-button'>Agregar</button>
+              </div>
+            ))}
+          </div>
+        )}
+        <div className='carousel-controls'>
+          <button onClick={handlePrev}>Anterior</button>
+          <button onClick={handleNext}>Siguiente</button>
+        </div>
+
+        <h2>Manillas</h2>
         {displayedProducts.length === 0 ? (
           <p>Cargando productos...</p>
         ) : (

@@ -1,14 +1,19 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import Headed from '../Components/Headed';
+import NavBar from '../Components/NavBar/NavBar';
+import Social from '../Components/Sections/Social';
 
-const Payments = ({ setMessage }) => {
-  useEffect(() => {
-    setMessage('Make a payment.');
-  }, [setMessage]);
-
+const Payments = () => {
   return (
     <div>
+      <div>
+        <Headed />
+        <NavBar />
+      </div>
       <h1>Payments Page</h1>
-      <p>Make a payment.</p>
+      <div>
+        <Social />
+      </div>
     </div>
   );
 };

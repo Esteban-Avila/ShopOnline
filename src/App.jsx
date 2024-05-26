@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './Screens/Home';
 import Login from './Screens/Login';
 import SignUp from './Screens/SignUp';
-import Products from './Screens/Products';
+import Payments from './Screens/Payments';
 import ProtectedRoutes from './Components/ProtectedRoutes';
 import { AuthProvider } from './Auth/AuthProvider';
 
@@ -22,8 +22,8 @@ const router = createBrowserRouter([
     element: <SignUp />,
   },
   {
-    path: '/Products',
-    element: <Products />,
+    path: '/Payments',
+    element: <Payments />,
   },
   {
     path: '/Protected',
