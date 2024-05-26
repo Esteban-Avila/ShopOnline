@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './NavBar.css'
 const links = [
   { name: "Inicio", href: "/"},
-  { name: "Productos", href: "/Products" },
   { name: "Carrito", href: "/Payments" },
 ];
 
