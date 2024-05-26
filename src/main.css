@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FontPrincipal'; /* Nombre de la fuente */
+    src: url('./Fonts/Odin/Odin\ Rounded\ -\ Bold.otf');
+  }
+  
+  Html body {
+    font-family: 'FontPrincipal', sans-serif; /* Usa 'MiFuente' como fuente principal */
+  }
+  
