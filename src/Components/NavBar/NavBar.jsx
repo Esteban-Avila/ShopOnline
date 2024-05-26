@@ -13,7 +13,7 @@ const links = [
 const NavBar = ({ setMessage }) => {
   return (
     <nav className='navbar'>
-      <ul>
+      <ul id="list">
         {links.map((x, index) => (
           <li key={index}>
             <Link id='items' to={x.href} onClick={() => setMessage(`You are on the ${x.name} page`)}>{x.name}</Link>
