@@ -1,11 +1,15 @@
 // Screens/Login.jsx
 import React, { useState } from 'react';
 import '../StyleScreens/Login.css';
+import { useNavigate } from 'react-router-dom';
+
 
 const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
+  const navigate = useNavigate();
+
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -18,15 +22,22 @@ const Login = () => {
     }
   };
 
+  const handleCustomPathClick = () => {
+    navigate('/SignUp'); // Redirige a la página de inicio de sesión
+};
+
+
   return (
     <div className="login-container">
       <div className="left"></div>
       <div className="right">
+      <button className='Cambio' onClick={handleCustomPathClick}>Registrarse</button>
+
         <div className="form-container">
-          <h1>Login Page</h1>
+          <h1>Iniciar Sesion</h1>
           <form onSubmit={handleLogin}>
             <div>
-              <label htmlFor="username">Username:</label>
+              <label htmlFor="username">Usuario:</label>
               <input
                 type="text"
                 id="username"
@@ -35,7 +46,7 @@ const Login = () => {
               />
             </div>
             <div>
-              <label htmlFor="password">Password:</label>
+              <label htmlFor="password">Contraseña:</label>
               <input
                 type="password"
                 id="password"

@@ -2,12 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css'
 const links = [
-  { name: "Home", href: "/Home"},
-  { name: "Login", href: "/Login" },
-  { name: "Sign Up", href: "/SignUp" },
-  { name: "Products", href: "/Products" },
-  { name: "Politics", href: "/Politics" },
-  { name: "Payments", href: "/Payments" },
+  { name: "Inicio", href: "/"},
+  { name: "Productos", href: "/Products" },
+  { name: "Carrito", href: "/Payments" },
 ];
 
 const NavBar = ({ setMessage }) => {

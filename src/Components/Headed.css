@@ -1,3 +1,13 @@
+.logo-container {
+    background-color: #8DC6C3; /* Cambia el color a tu gusto */
+    padding: 20px; /* Añade algo de padding si quieres que la imagen no toque los bordes del rectángulo */
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Centra la imagen verticalmente */
+    width: 97vw; /* Ajusta el tamaño según tus necesidades */
+    height: 10vh; /* Ajusta el tamaño según tus necesidades */
+  }
+  
 .logo{
     width: 20vw;
     justify-content: center; /* Centra horizontalmente */

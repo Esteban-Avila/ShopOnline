@@ -3,7 +3,7 @@ import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './Screens/Home';
 import Login from './Screens/Login';
-import SignUp from './Screens/Registro';
+import SignUp from './Screens/SignUp';
 import Products from './Screens/Products';
 import ProtectedRoutes from './Components/ProtectedRoutes';
 import { AuthProvider } from './Auth/AuthProvider';
