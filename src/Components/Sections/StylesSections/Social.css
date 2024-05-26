@@ -1,15 +1,18 @@
-.mid{
-    background-color: violet;
+html, body{
+    height:100%;
+    margin:0;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
 }
+
 .bottom{
     background-color: #303030;
     display: flex;
     justify-content: right;
-    width: auto;
-    height: auto;
+    width: 100vw;
+    height: 8vh;
 }
+
 .logos{
     display: inline-block;
     margin: 10px 20px;
