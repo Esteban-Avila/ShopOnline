@@ -3,7 +3,7 @@ import './Sections.css';
 function Mid(){
     return(
         <div className="mid">   
-            <h1><strong>HI</strong></h1>
+            <box className='box'></box>
         </div>
     )
 };
