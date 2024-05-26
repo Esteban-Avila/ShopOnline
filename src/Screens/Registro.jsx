@@ -1,32 +1,42 @@
-// Screens/Login.jsx
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../StyleScreens/Login.css';
 
-const Login = () => {
+const SignUp = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
+  const navigate = useNavigate();
 
-  const handleLogin = (e) => {
+  const handleSignUp = (e) => {
     e.preventDefault();
     
-    // Lógica de autenticación simulada
-    if (username === 'admin' && password === 'password') {
-      setMessage('Login exitoso');
+    // Lógica de registro simulada
+    if (username && password) {
+      setMessage('Registro exitoso');
     } else {
-      setMessage('Nombre de usuario o contraseña incorrectos');
+      setMessage('Por favor, completa todos los campos');
     }
+  };
+
+  const handleCustomPathClick = () => {
+      navigate('/login'); // Redirige a la página de inicio de sesión
   };
 
   return (
     <div className="login-container">
-      <div className="left"></div>
+      <div className="left">
+        {/* Agrega aquí cualquier contenido adicional para el lado izquierdo */}
+      </div>
+
       <div className="right">
+        <button className='Cambio' onClick={handleCustomPathClick}>Iniciar Sesión</button>
+
         <div className="form-container">
-          <h1>Login Page</h1>
-          <form onSubmit={handleLogin}>
+          <h1>Registrarse</h1>
+          <form onSubmit={handleSignUp}>
             <div>
-              <label htmlFor="username">Username:</label>
+              <label htmlFor="username">Usuario:</label>
               <input
                 type="text"
                 id="username"
@@ -35,7 +45,7 @@ const Login = () => {
               />
             </div>
             <div>
-              <label htmlFor="password">Password:</label>
+              <label htmlFor="password">Contraseña:</label>
               <input
                 type="password"
                 id="password"
@@ -43,13 +53,14 @@ const Login = () => {
                 onChange={(e) => setPassword(e.target.value)}
               />
             </div>
-            <button type="submit">Login</button>
+            <button type="submit">Registrarse</button>
           </form>
         </div>
+
         {message && <p>{message}</p>}
       </div>
     </div>
   );
 };
 
-export default Login;
+export default SignUp;

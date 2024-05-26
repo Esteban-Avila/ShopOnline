@@ -1,16 +1,14 @@
-import React, { useEffect } from 'react';
-const Home = ({ setMessage }) => {
-  useEffect(() => {setMessage('Welcome to the Home page.');}, [setMessage]);
+// Screens/Home.js
+import React from 'react';
+import Social from '../Components/Sections/Social';
+
+const Home = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <div>
-      <p>Welcome to the Home page.</p>
-      </div>
+    <div className='prueba'>
+      <h1>Bienvenido a la Página Principal</h1>
+      <Social />
     </div>
   );
 };
-
-
 
 export default Home;
