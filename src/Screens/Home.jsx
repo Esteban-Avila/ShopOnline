@@ -43,7 +43,7 @@ const Home = () => {
           <div className='products-carousel'>
             {displayedProducts.map((product) => (
               <div key={product.id} className='product-card'>
-                <img src={product.image} alt={product.name} className='product-image' />
+                <img src={product.image} alt={product.name} className='product-image' /><br></br>
                 <button className='add-button'>Agregar</button>
               </div>
             ))}
@@ -61,7 +61,7 @@ const Home = () => {
           <div className='products-carousel'>
             {displayedProducts.map((product) => (
               <div key={product.id} className='product-card'>
-                <img src={product.image} alt={product.name} className='product-image' />
+                <img src={product.image} alt={product.name} className='product-image' /><br></br>
                 <button className='add-button'>Agregar</button>
               </div>
             ))}
@@ -79,7 +79,7 @@ const Home = () => {
           <div className='products-carousel'>
             {displayedProducts.map((product) => (
               <div key={product.id} className='product-card'>
-                <img src={product.image} alt={product.name} className='product-image' />
+                <img src={product.image} alt={product.name} className='product-image' /><br></br>
                 <button className='add-button'>Agregar</button>
               </div>
             ))}
