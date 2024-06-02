@@ -4,7 +4,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './Screens/Home';
 import Login from './Screens/Login';
 import SignUp from './Screens/SignUp';
+import Products from './Screens/Products';
+import Polithics from './Screens/Polithics';
 import Payments from './Screens/Payments';
+import ContactUs from './Screens/ContactUs';
 import ProtectedRoutes from './Components/ProtectedRoutes';
 import { AuthProvider } from './Auth/AuthProvider';
 
