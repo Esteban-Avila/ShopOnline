@@ -23,10 +23,3 @@ html, body{
 .texts{
     color: white;
 }
-
-.box{
-    display: inline-block;
-    margin: 10px 20px;
-    height: 45px;
-    justify-content: center;
-}
