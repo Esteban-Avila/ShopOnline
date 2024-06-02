@@ -22,14 +22,22 @@ const router = createBrowserRouter([
     element: <SignUp />,
   },
   {
-    path: '/Payments',
-    element: <Payments />,
+    path: '/Products',
+    element: <Products />,
+  },
+  {
+    path: '/Polithics',
+    element: <Polithics />,
   },
   {
     path: '/Protected',
     element: <ProtectedRoutes />,
     children: [
-      // Añadir rutas protegidas aquí
+      {
+        path: '/Payments',
+        element: <Payments />,
+      }
+      
     ],
   },
 ]);
