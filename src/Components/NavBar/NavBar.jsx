@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import './NavBar.css'
 const links = [
   { name: "Inicio", href: "/"},
-  { name: "Carrito", href: "/Payments" },
-  { name: "Iniciar sesion", href: "/login" },
+  { name: "Productos", href: "/Products" },
+  { name: "Nosotros", href: "/ContactUs"},
+  { name: "Politicas", href: "/Polithics"},
   // mando a quitar el resto
 ];
 
