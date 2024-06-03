@@ -1,7 +1,7 @@
 import React from 'react';
 import Headed from '../Components/Headed';
 import NavBar from '../Components/NavBar/NavBar';
-import Social from '../Components/Sections/Social';
+import Social from '../Components/foot/Social';
 
 const Payments = () => {
   return (

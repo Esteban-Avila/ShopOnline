@@ -40,10 +40,10 @@ const router = createBrowserRouter([
     path: '/Protected',
     element: <ProtectedRoutes />,
     children: [
-      {
-        path: '/Payments',
-        element: <Payments />,
-      }
+      // {
+      //   path: '/Payments',
+      //   element: <Payments />,
+      // }
       
     ],
   },

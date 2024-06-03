@@ -1,6 +1,6 @@
 // Screens/Login.jsx
 import React, { useState } from 'react';
-import '../StyleScreens/Login.css';
+import '../Style/Login.css';
 import { useNavigate } from 'react-router-dom';
 
 
