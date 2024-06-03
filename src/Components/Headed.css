@@ -1,14 +1,88 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: 'FontSubTitle'; 
+  src: url('../../Fonts/soft_elegance/SoftElegance.ttf');
+}
+
+.top {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  padding: 10px;
+}
+
 .logo-container {
-    background-color: #8DC6C3; /* Cambia el color a tu gusto */
-    padding: 20px; /* Añade algo de padding si quieres que la imagen no toque los bordes del rectángulo */
-    display: flex;
-    justify-content: center; /* Centra la imagen horizontalmente */
-    align-items: center; /* Centra la imagen verticalmente */
-    width: 97vw; /* Ajusta el tamaño según tus necesidades */
-    height: 10vh; /* Ajusta el tamaño según tus necesidades */
-  }
-  
-.logo{
-    width: 20vw;
-    justify-content: center; /* Centra horizontalmente */
+  position: relative;
+  left: 40vw;
+  padding: 20px;
+}
+
+.logo {
+  width: 15vw;
+}
+
+.btnSocial{
+  position: relative;
+  right: -22vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.btn_varius{
+  position: relative;
+  right: 5vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logos {
+  margin: 5px;
+  height: 20px;
+}
+
+#links{
+  flex: 1;
+  list-style: none;
+  text-align: center;
+  overflow: hidden;
+}
+
+#links li{
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#itemH:link{
+  color:#333;
+  text-decoration: none;
+  font-family: 'FontSubTitle';
+}
+
+#itemH:visited{
+  color: #333;
+}
+
+#itemH:hover{
+  color:#333;
+  text-decoration: none;
+  border: none ;
+  background-color: transparent;
+  color: #cb6f2e;
+  border-radius: 20%;
+  padding: 20%;
+  white-space: nowrap;
 }
