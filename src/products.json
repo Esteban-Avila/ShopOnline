@@ -2,27 +2,50 @@
     {
       "id": 1,
       "name": "Producto 1",
-      "image": "url_a_la_imagen_1"
+      "image": "/photos/navidad-3.png",
+      "price": "$35.000"
     },
     {
       "id": 2,
       "name": "Producto 2",
-      "image": "url_a_la_imagen_2"
+      "image": "/photos/navidad-1.png",
+      "price": "$35.000"
     },
     {
       "id": 3,
       "name": "Producto 3",
-      "image": "url_a_la_imagen_3"
+      "image": "/photos/navidad-4.png",
+      "price": "$35.000"
     },
     {
       "id": 4,
       "name": "Producto 4",
-      "image": "url_a_la_imagen_4"
+      "image": "/photos/patos.png",
+      "price": "$35.000"
     },
     {
       "id": 5,
       "name": "Producto 5",
-      "image": "url_a_la_imagen_5"
+      "image": "url_a_la_imagen_5",
+      "price": "$35.000"
+    },
+    {
+      "id": 6,
+      "name": "Producto 5",
+      "image": "url_a_la_imagen_5",
+      "price": "$35.000"
+    },
+    {
+      "id": 7,
+      "name": "Producto 5",
+      "image": "url_a_la_imagen_5",
+      "price": "$35.000"
+    },
+    {
+      "id": 8,
+      "name": "Producto 5",
+      "image": "url_a_la_imagen_5",
+      "price": "$35.000"
     }
   ]
   
