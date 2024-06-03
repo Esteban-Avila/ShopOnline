@@ -1,40 +1,56 @@
-.navbar{
+@font-face {
+    font-family: 'FontSubTitle'; 
+    src: url('../../Fonts/soft_elegance/SoftElegance.ttf');
+  }
+  
+.navbar {
     width: 100%;
+    height: 5vh;
+    display: flex; /* Activar flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    position: relative;
+    background: #fff; /*  #a8d0e2; */
+}
+
+#list {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #333;
-    
-}
-#list{
-    flex: 1;
+    justify-content: center;
     list-style: none;
-    text-align: center;
-    overflow: hidden;
+    padding: 0;
+    margin: 0;
 }
-#list li{
-    display: inline-block;
-    margin: 10px 20px;
+
+#list li {
+    margin: 0 20px;
     font-size: 16px;
     cursor: pointer;
 }
 
-#items:link{
-    color:aliceblue;
+#items:link,
+#items:visited {
+    color: #333;
     text-decoration: none;
-}
-#items:visited{
-    color: aliceblue;
+    font-family: 'FontSubTitle', sans-serif;
 }
 
-#items:hover{
-    color:aliceblue;
+#items:hover {
+    color: #cb6f2e;
     text-decoration: none;
-    border: inset blue ;
-    background-color: blue;
-    border-radius: 20%;
-    padding: 20%;
-    white-space: nowrap;
+    background-color: transparent;
 }
 
+@media (max-width: 768px) {
+    #list {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    #list li {
+        margin: 10px 0;
+    }
+
+    .navbar {
+        height: auto;
+    }
+}

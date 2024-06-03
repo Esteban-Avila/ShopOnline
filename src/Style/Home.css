@@ -3,17 +3,52 @@ html, body{
   margin:0;
   display: flex;
   flex-direction: row;
-  font-family: 'principal', sans-serif;
+}
+
+@font-face {
+  font-family: 'Fonttitle'; /* Nombre de la fuente */
+  src: url('../Fonts/itc-avant-garde-gothic-lt-demi.ttf');
+}
+
+@font-face {
+  font-family: 'FontSubTitle'; 
+  src: url('../../Fonts/soft_elegance/SoftElegance.ttf');
 }
 
 .container-Home{
-    width: 90vw;
+    width: 100vw;
+    display: flex; /* Activar flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
 }
 
+.container-photo{
+  width: 100vw;
+  height: 55vh;
+  background-color: transparent;
+  background-image: url('../assets/01-COLL-s.png'); /* Ruta a tu imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  display: flex; /* Activar flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  position: relative;
+  flex-direction: column;
+}
+
+.container-photo h1{
+  color: #fff;
+  font-family: 'Fonttitle';
+}
 .content {
   text-align: center;
   flex: 1;
   height: 100vh;
+}
+
+.content h2{
+  font-family: 'Fonttitle';
 }
 
 .products-carousel {
@@ -24,26 +59,27 @@ html, body{
 }
 
 .product-card {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  /* padding: 20px; */
+  border-radius: 0px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   text-align: center;
 }
 
 .product-image {
-  max-width: 100px;
-  height: auto;
+  max-width: 200px;
+  height: 200px;
   margin-bottom: 10px;
 }
 
 .add-button {
-  background-color: #8dc6c3;
+  background-color: #76c7c3;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: none;
   padding: 10px 20px;
   cursor: pointer;
+  font-family: 'FontSubTitle'; 
 }
 
 .add-button:hover {
@@ -51,20 +87,73 @@ html, body{
 }
 
 .carousel-controls {
+  position: relative;
+  align-items: center;
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  width: 50vw;
+
 }
 
-.carousel-controls button {
-  background-color: #8dc6c3;
-  color: white;
+.btnprevius, 
+.buttomnext{
+  background-color: transparent;
   border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
+  padding: 0;
   cursor: pointer;
+  border-radius: 50%;
+
 }
 
-.carousel-controls button:hover {
-  background-color: #5d9c99;
+.btnprevius img, 
+.buttomnext img{
+  width: 30px;
+  height: auto;
+}
+
+.buttomnext button:hover, 
+.btnprevius button:hover {
+  background-color: transparent;
+}
+
+.products-carousel p{
+  font-family: 'FontSubTitle'; 
+  color: #333;
+}
+
+.more{
+  position: relative;
+  width: 230px;
+  height: 50px;
+  border-radius: none;
+  background-color: transparent;
+  border: 2px  solid #ffffff;
+  color: #fff;
+  font-family: 'FontSubTitle';
+}
+
+.more:hover{
+  background-color: #ffffff;
+  border-color: none;
+  color: #333;
+}
+
+
+.moreP{
+  position: relative;
+  bottom: -25px;
+  width: 230px;
+  height: 50px;
+  border-radius: 0px;
+  background-color: transparent;
+  color: #76c7c3;
+  border: 2px  solid #76c7c3;
+  font-family: 'FontSubTitle'; 
+}
+
+.moreP:hover{
+  background-color: #76c7c3;
+  border:  transparent;
+  color: #fff;
 }
