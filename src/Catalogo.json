@@ -1,0 +1,178 @@
+[
+    {
+      "id": 1,
+      "name": "Manilla Roja",
+      "category": "candongas",
+      "price": 19000,
+      "image": "/products/01-CA-DF.jpg"
+    },
+    {
+      "id": 2,
+      "name": "CA-DS",
+      "category": "candongas",
+      "price": 13000,
+      "image": "/products/01-CA-DS.jpg"
+    },
+    {
+      "id": 3,
+      "name": "OA-AT",
+      "category": "aretes",
+      "price": 11000,
+      "image": "/products/01-OA-AT.jpg"
+    },
+    {
+      "id": 4,
+      "name": "OA-SA",
+      "category": "aretes",
+      "price": 7000,
+      "image": "/products/01-OA-S.jpg"
+    },
+    {
+      "id": 5,
+      "name": "BOM-S",
+      "category": "aretes",
+      "price": 11000,
+      "image": "/products/BOM-S.jpg"
+    },
+    {
+      "id": 6,
+      "name": "BOM-SS",
+      "category": "aretes",
+      "price": 12000,
+      "image": "/products/BOM-SS.jpg"
+    },
+    {
+      "id": 7,
+      "name": "CA-DD01",
+      "category": "candongas",
+      "price": 25000,
+      "image": "/products/CA-D01.jpg"
+    },
+    {
+      "id": 8,
+      "name": "CHOK-01",
+      "category": "chokers",
+      "price": 15000,
+      "image": "/products/CHOK-01.jpg"
+    },
+    {
+      "id": 9,
+      "name": "CHOK-02",
+      "category": "chokers",
+      "price": 25000,
+      "image": "/products/CHOK-02.jpg"
+    },
+    {
+      "id": 10,
+      "name": "CHP-S",
+      "category": "aretes",
+      "price": 11000,
+      "image": "/products/CHP-S.jpg"
+    },
+    {
+      "id": 11,
+      "name": "CHP-SS",
+      "category": "aretes",
+      "price": 12000,
+      "image": "/products/CHP-SS.jpg"
+    },
+    {
+      "id": 12,
+      "name": "COLL-D01",
+      "category": "collares",
+      "price": 24000,
+      "image": "/products/COLL-D01.jpg"
+    },
+    {
+      "id": 13,
+      "name": "COLL-S01",
+      "category": "collares",
+      "price": 15000,
+      "image": "/products/COLL-S01.jpg"
+    },
+    {
+      "id": 14,
+      "name": "COLL-S02",
+      "category": "collares",
+      "price": 15000,
+      "image": "/products/COLL-S02.jpg"
+    },
+    {
+      "id": 15,
+      "name": "COLL-S03",
+      "category": "collares",
+      "price": 15000,
+      "image": "/products/COLL-S03.jpg"
+    },
+    {
+      "id": 16,
+      "name": "CPA-S",
+      "category": "aretes",
+      "price": 8000,
+      "image": "/products/CPA-S.jpg"
+    },
+    {
+      "id": 17,
+      "name": "DNA-S",
+      "category": "aretes",
+      "price": 10000,
+      "image": "/products/DNA-S.jpg"
+    },
+    {
+      "id": 18,
+      "name": "DNA-SANRIO",
+      "category": "aretes",
+      "price": 10000,
+      "image": "/products/DNA-SANRIO.jpg"
+    },
+    {
+      "id": 19,
+      "name": "FLA-S1",
+      "category": "aretes",
+      "price": 9000,
+      "image": "/products/FL-S1.jpg"
+    },
+    {
+      "id": 20,
+      "name": "FLA-SS",
+      "category": "aretes",
+      "price": 10000,
+      "image": "/products/FL-SS.jpg"
+    },
+    {
+      "id": 21,
+      "name": "MAN-01",
+      "category": "manillas",
+      "price": 12000,
+      "image": "/products/MAN-01.jpg"
+    },
+    {
+      "id": 22,
+      "name": "NC-S",
+      "category": "aretes",
+      "price": 9000,
+      "image": "/products/NC-S.jpg"
+    },
+    {
+      "id": 23,
+      "name": "OA-SS",
+      "category": "aretes",
+      "price": 8000,
+      "image": "/products/OA-SS.jpg"
+    },
+    {
+      "id": 24,
+      "name": "PA-S",
+      "category": "aretes",
+      "price": 7000,
+      "image": "/products/PA-S.jpg"
+    },
+    {
+      "id": 25,
+      "name": "PA-SS",
+      "category": "aretes",
+      "price": 8000,
+      "image": "/products/PA-SS1.jpg"
+    }
+  ]
+  
