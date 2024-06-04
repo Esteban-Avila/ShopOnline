@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Fonttitle'; /* Nombre de la fuente */
+  src: url('../Fonts/itc-avant-garde-gothic-lt-demi.ttf');
+}
+
+@font-face {
+  font-family: 'FontSubTitle'; 
+  src: url('../../Fonts/soft_elegance/SoftElegance.ttf');
+}
+
 .login-container {
   display: flex;
   height: 100vh;
@@ -35,6 +45,7 @@
   position: relative;
   top: -10vh;
   left: 8vw;
+  font-family: 'Fonttitle';
 }
 
 .left img{
@@ -59,6 +70,7 @@ form label {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: bold;
+  font-family: 'FontSubTitle';
 }
 
 form input {
@@ -80,6 +92,7 @@ form button {
   border-radius: 20px;
   cursor: pointer;
   width: 130px;
+  font-family: 'Fonttitle'; 
 }
 
 form button:hover {
@@ -103,4 +116,31 @@ p {
   border-radius: 20px;
   cursor: pointer;
   width: 100px;
+  font-family: 'Fonttitle';
+}
+
+
+/* Quita la viñeta y aplica estilos personalizados al <li> */
+ul {
+  padding: 0; /* Quita el padding del <ul> */
+  margin: 0;  /* Quita el margin del <ul> */
+}
+
+ul li {
+  list-style-type: none; /* Quita la viñeta del <li> */
+}
+
+/* Estilos para el enlace con el id 'link_r' */
+#link_r {
+  color: #333;
+  text-decoration: none; 
+  font-family: 'FontSubTitle';
+  display: inline-block; 
+  padding: 10px; /* Agrega padding para mejorar el aspecto */
+  text-align: center; /* Centra el texto */
+}
+
+/* Estilos para el enlace visitado */
+#link_r:visited {
+  color: #333;
 }

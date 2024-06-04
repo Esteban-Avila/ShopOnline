@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Fonttitle'; /* Nombre de la fuente */
+  src: url('../Fonts/itc-avant-garde-gothic-lt-demi.ttf');
+}
+
+@font-face {
+  font-family: 'FontSubTitle'; 
+  src: url('../../Fonts/soft_elegance/SoftElegance.ttf');
+}
+
+.container {
+    display: flex;
+    height: auto;
+    font-family: 'Fonttitle';
+  }
+  
+  .sidebar {
+    width: 20%;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+  }
+  
+
+  .sidebar label{
+    font-family: 'FontSubTitle';
+  }
+
+  .products {
+    width: 80%;
+    padding: 10px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-item {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'FontSubTitle'; 
+  }
+
+  .product-item div{
+    white-space: pre-line;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+  }

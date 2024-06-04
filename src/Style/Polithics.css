@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'FontSubTitle'; 
+    src: url('../../Fonts/soft_elegance/SoftElegance.ttf');
+  }
+
+.container_Poli p{
+    color: #333;
+    padding: 10px;
+    font-family: 'FontSubTitle'; 
+}
