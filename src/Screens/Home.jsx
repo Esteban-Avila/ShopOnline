@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Headed from '../Components/Headed';
 import NavBar from '../Components/NavBar/NavBar';
-import Social from '../Components/foot/Social';
 import prev from '../assets/previus.png';
 import next from '../assets/next.png';
 import CADS from '../../public/photos/CA-DS-Product.png';
@@ -35,6 +34,7 @@ const Home = () => {
   const handleClick = () => {
     navigate('/Products');
   };
+
 
   const itemsPerPage = 4;
   const totalPages = Math.ceil(products.length / itemsPerPage);
@@ -150,11 +150,6 @@ const Home = () => {
         <h1 className='title_M'>{modalData?.title}</h1>
         <p className='Content_M'>{modalData?.content}</p>
       </Modal>
-
-      <div>
-        <Social />
-      </div>
-
     </div>
   );
 };

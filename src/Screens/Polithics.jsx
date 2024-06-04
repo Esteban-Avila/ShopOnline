@@ -1,21 +1,24 @@
 import React from 'react';
 import Headed from '../Components/Headed';
 import NavBar from '../Components/NavBar/NavBar';
-import Social from '../Components/foot/Social';
+import textp from '../Politicas.json';
+import '../Style/Polithics.css' // Cambiado a 'textp'
 
-const Payments = () => {
+const Polithics = () => {
   return (
     <div>
       <div>
         <Headed />
         <NavBar />
       </div>
-      <h1>Polithics Page</h1>
-      <div>
-        <Social />
+      <div className="container_Poli" style={{ textAlign: 'justify' }}>
+        {textp.parrafos.map((parrafo, index) => (
+          <p key={index}>{parrafo}</p>
+        ))}
       </div>
     </div>
   );
 };
 
-export default Payments;
+export default Polithics;
+

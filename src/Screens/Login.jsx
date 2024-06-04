@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import '../Style/Login.css';
 import { useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 
 const Login = () => {
@@ -34,7 +35,7 @@ const Login = () => {
       <button className='Cambio' onClick={handleCustomPathClick}>Registrarse</button>
 
         <div className="form-container">
-          <h1>Iniciar Sesion</h1>
+          <h1>INICIAR SESION</h1>
           <form onSubmit={handleLogin}>
             <div>
               <label htmlFor="username">Usuario:</label>
@@ -56,6 +57,9 @@ const Login = () => {
             </div>
             <button type="submit">Login</button>
           </form>
+          <ul>
+                    <li><Link to={'/'} id='link_r'>Entrar</Link></li>
+          </ul>
         </div>
         {message && <p>{message}</p>}
       </div>
