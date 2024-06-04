@@ -20,9 +20,12 @@
     border-right: 1px solid #ddd;
   }
   
-
+  .sidebar h2{
+    color: #75b3af ;/* Cambia el color a tu gusto */;
+  }
   .sidebar label{
     font-family: 'FontSubTitle';
+    
   }
 
   .products {

@@ -45,7 +45,7 @@ const Products = () => {
       <NavBar />
       <div className="container">
         <div className="sidebar">
-          <h2>Filtrar por Categoría</h2>
+          <h2>CATEGORÍA</h2>
           <div>
             <label>
               <input
