@@ -4,9 +4,7 @@ import './NavBar.css'
 const links = [
   { name: "Inicio", href: "/"},
   { name: "Productos", href: "/Products" },
-  { name: "Nosotros", href: "/ContactUs"},
   { name: "Politicas", href: "/Polithics"},
-  // mando a quitar el resto
 ];
 
 const NavBar = ({ setMessage }) => {

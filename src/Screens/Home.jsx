@@ -84,7 +84,6 @@ const Home = () => {
             {displayedProducts.map((product) => (
               <div key={product.id} className='product-card'>
                 <img src={product.image} alt={product.name} className='product-image' /><br />
-                <p>{product.name}</p>
                 <p className="bold-text">{product.price}</p>
                 <button className='add-button'>Agregar</button>
               </div>
