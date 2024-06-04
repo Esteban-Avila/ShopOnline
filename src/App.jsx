@@ -7,7 +7,6 @@ import SignUp from './Screens/SignUp';
 import Products from './Screens/Products';
 import Polithics from './Screens/Polithics';
 import Payments from './Screens/Payments';
-import ContactUs from './Screens/ContactUs';
 import ProtectedRoutes from './Components/ProtectedRoutes';
 import { AuthProvider } from './Auth/AuthProvider';
 
@@ -33,18 +32,14 @@ const router = createBrowserRouter([
     element: <Polithics />,
   },
   {
-    path: '/ContactUs',
-    element: <ContactUs />,
-  },
-  {
-    path: '/Protected',
-    element: <ProtectedRoutes />,
+    path:"/", //busca la raiz y luego valida que si es verdadero pasa a dashboard
+    element: <ProtectedRoutes/>,
+    // propiedad que solicita un arreglo
     children: [
-      // {
-      //   path: '/Payments',
-      //   element: <Payments />,
-      // }
-      
+      {
+        path: '/Payments',
+        element: <Payments />,
+      },
     ],
   },
 ]);

@@ -6,7 +6,9 @@ import logoIg from '../assets/ig.png';
 import logoU from '../assets/user.png';
 import './Headed.css';
 import { Link } from "react-router-dom";
+
 function Headed(){
+
     return(
         <div className="top">
             <div className="logo-container">
@@ -22,7 +24,7 @@ function Headed(){
             <div className="btn_varius">
                 <ul id="links">
                     <li><Link id="itemH" to={'/Login'}>Entrar</Link></li>
-                    <li><Link id="itemH" to={'/Login'}>Carrito</Link></li>
+                    <li><Link id="itemH" to={'/Payments'}>Carrito</Link></li>
                 </ul>
             </div>
         </div>
